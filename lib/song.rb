@@ -49,7 +49,10 @@ class Song
         @@artist_counter[element] = value
       else
         @@artist_counter[element] = 1
+      end
+    end
   end
+  
 end
 
 
