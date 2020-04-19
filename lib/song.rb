@@ -51,6 +51,7 @@ class Song
         @@artist_counter[element] = 1
       end
     end
+    @@artist_counter
   end
   
 end
