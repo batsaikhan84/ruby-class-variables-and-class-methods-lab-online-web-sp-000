@@ -35,6 +35,7 @@ class Song
     else
       counter += 1
       @genre_counter[genre] = counter
+    end
   end
   
   def self.artist_count
