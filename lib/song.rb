@@ -29,12 +29,12 @@ class Song
   end
   
   def self.genre_count
-    if @@genre_counter.keys.include?(genre)
+    if @@genre_counter.keys.include?(@genre)
       counter += 1
-      @@genre_counter[genre] = counter
+      @@genre_counter[@genre] = counter
     else
       counter += 1
-      @@genre_counter[genre] = counter
+      @@genre_counter[@genre] = counter
     end
   end
   
