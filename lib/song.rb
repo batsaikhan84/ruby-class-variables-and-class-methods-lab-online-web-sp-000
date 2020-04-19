@@ -36,6 +36,7 @@ class Song
         @@genre_counter[element] = value
       else 
         @@genre_counter[element] = 1
+      end
     end
   end
   
