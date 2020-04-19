@@ -29,6 +29,7 @@ class Song
   end
   
   def self.genre_count
+    counter = 0
     if @@genre_counter.keys.include?(@genre)
       counter += 1
       @@genre_counter[@genre] = counter
