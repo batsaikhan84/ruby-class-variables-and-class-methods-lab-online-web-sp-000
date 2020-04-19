@@ -33,9 +33,11 @@ class Song
     if @@genre_counter.keys.include?(@genre)
       counter += 1
       @@genre_counter[@genre] = counter
+      @@genre_counter
     else
       counter += 1
       @@genre_counter[@genre] = counter
+      @@genre_counter
     end
   end
   
