@@ -34,8 +34,10 @@ class Song
       if @@genre_counter.keys.include?(element)
         value += 1
         @@genre_counter[element] = value
+        @@genre_counter
       else 
         @@genre_counter[element] = 1
+        @@genre_counter
       end
     end
   end
