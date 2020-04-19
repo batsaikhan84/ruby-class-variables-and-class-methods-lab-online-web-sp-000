@@ -34,12 +34,11 @@ class Song
       if @@genre_counter.keys.include?(element)
         value += 1
         @@genre_counter[element] = value
-        @@genre_counter
       else 
         @@genre_counter[element] = 1
-        @@genre_counter
       end
     end
+    @@genre_counter
   end
   
   def self.artist_count
