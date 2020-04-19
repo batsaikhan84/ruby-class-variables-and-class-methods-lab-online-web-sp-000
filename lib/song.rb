@@ -16,12 +16,11 @@ class Song
   end
   
   def genres
-    if !@@genres.include?(@@genre)
-      @@genres << genre
+    @@genres.uniq
   end
   
   def artists
-    if !@@artists.include?(@@)
+    @@artists.uniq
   end
   
 end
