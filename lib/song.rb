@@ -15,7 +15,8 @@ class Song
   end
   
   def genres(genre)
-    if @@genres.include?genre
+    if !@@genres.include?(genre)
+      
   end
   
 end
