@@ -29,8 +29,12 @@ class Song
   end
   
   def self.genre_count
-    if @@genre_count.key == genre
-      
+    if @@genre_counter.key == genre
+      counter += 1
+      @@genre_counter[genre] = counter
+    else
+      counter += 1
+      @genre_counter[genre] = counter
   end
   
   def self.artist_count
