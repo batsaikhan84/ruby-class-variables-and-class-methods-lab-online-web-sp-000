@@ -42,6 +42,15 @@ class Song
   end
   
   def self.artist_count
-    
+    value = 1
+    @@artists.each do |element|
+      if @@artist_counter.keys.include?(element)
+        value += 1
+        @@artist_counter[element] = value
+      else
+        @@artist_counter[element] = 1
   end
 end
+
+
+
