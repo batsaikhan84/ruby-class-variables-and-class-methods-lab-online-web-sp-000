@@ -34,7 +34,7 @@ class Song
       @@genre_counter[genre] = counter
     else
       counter += 1
-      @genre_counter[genre] = counter
+      @@genre_counter[genre] = counter
     end
   end
   
